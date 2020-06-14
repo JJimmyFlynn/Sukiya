@@ -2,15 +2,15 @@
 <html lang="{{ craft.app.language |slice(0,2) }}" class="no-js">
   <head>
     {% block head %}
-      {% include "partials/head.twig" %}
+      {% include "partials/_head.twig" %}
     {% endblock %}
   </head>
 
-  <body class="{{ body_class }}">
+  <body class="{{ body_class ?? '' }}">
     <a href="#mainContent" class="u-visually-hidden">Skip to main Content</a>
     <a href="#mainNav" class="u-visually-hidden">Skip to main navigation</a>
     {% block header %}
-      {% include "partials/header.twig" %}
+      {% include "partials/_header.twig" %}
     {% endblock %}
 
     <main role="main" id="mainContent" class="main">
@@ -19,7 +19,7 @@
     </main>
 
     {% block footer %}
-      {% include "partials/footer.twig" %}
+      {% include "partials/_footer.twig" %}
     {% endblock %}
     
     {% block bodyScripts %}
