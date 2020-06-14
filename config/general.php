@@ -16,7 +16,7 @@ return [
         'omitScriptNameInUrls' => true,
         'cpTrigger' => 'admin',
         'securityKey' => getenv('SECURITY_KEY'),
-        'useProjectConfigFile' => false,
+        'useProjectConfigFile' => true,
         'allowAdminChanges' => false,
         'allowUpdates' => false,
         'errorTemplatePrefix' => 'errors/',
