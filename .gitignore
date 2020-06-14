@@ -2,4 +2,5 @@
 /.idea
 /vendor
 /node_modules
+/web/media
 .DS_Store
