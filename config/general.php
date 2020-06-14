@@ -19,6 +19,7 @@ return [
         'useProjectConfigFile' => false,
         'allowAdminChanges' => false,
         'allowUpdates' => false,
+        'errorTemplatePrefix' => 'errors/',
         'cacheDuration' => 0,
     ],
 
