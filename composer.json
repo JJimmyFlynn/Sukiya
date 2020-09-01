@@ -2,6 +2,7 @@
   "name": "jjimmyflynn/sukiya",
   "type": "project",
   "description": "A Craft CMS starter project",
+  "license": "MIT",
   "authors": [
     {
       "name": "John Flynn",
